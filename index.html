@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>DevFolio Website - Coding Power</title>
+
+    <!-- typed.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <button class="scrollbtn" id="btn" type="button" onclick="scrolltoTop()"><i class="fa fa-arrow-up"></i></button>
+
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">Dev Nour </a>
+        </div>
+        <ul class="menu" id="menu">
+            <li><a href="#home" onclick="menu()">Home</a></li>
+            <li><a href="#about" onclick="menu()">About</a></li>
+            <li><a href="#services" onclick="menu()">Services</a></li>
+            <li><a href="#portfolio" onclick="menu()">PortFolio</a></li>
+            <li><a href="#blog" onclick="menu()">Blog</a></li>
+            <li><a href="#contact" onclick="menu()">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="menu()"><i class="fa fa-bars"></i></div>
+    </nav>
+
+    <div id="home" class="home" style="background: url('photo_2022-09-03_04-55-23.jpg') center center/cover no-repeat;">
+
+        <div class="home-content">
+            <h1 class="name">I am Nour Maher Mahmoud </h1>
+            <p><span class="typing"></span></p>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="info">
+                    <div class="personal">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt=""  width="180px" height="150px">
+                        </div>
+                        <div class="name">
+                            <p><span>Name:</span> Nour Eddine Maher </p>
+                            <p><span>Profile:</span> Frontend Developer </p>
+                            <p><span>Email:</span> Nourmaher7791@gmail.com</p>
+                            <p><span>Phone:</span> 01091746420</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h4>Skills</h4>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        
+                        <div class="progress-line"><span class="html"></span></div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-line"><span class="css"></span></div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-line"><span class="javascript"></span></div>
+                        <div class="skill">
+                            <span>React</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-line"><span class="php"></span></div>
+                        
+                    </div>
+                </div>
+                <div class="aboutme">
+                    <h5>About me</h5>
+                    <p>Hello! My name is [Nour Eddine Maher Mahmoud ], and I am a passionate web developer with a keen interest in building innovative and user-friendly web applications. I have experience working with various technologies like HTML, CSS, JavaScript, and React, and I enjoy creating solutions that solve real-world problems.</p>
+                    <p>In addition to my technical skills, I have a strong focus on teamwork and collaboration, and I believe that working with others can lead to the most creative and efficient outcomes. I am always eager to learn new technologies and improve my skillset to stay updated with the fast-paced world of web development</p>
+                    <p>In my free time, I enjoy exploring new tools, contributing to open-source projects, and keeping up with the latest industry trends. I am always on the lookout for exciting challenges that will allow me to grow both personally and professionally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h3 class="title">Services</h3>
+            <div class="line"></div>
+            <div class="services-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-code"></i></div>
+                        <div class="card-title">Web Development</div>
+                        <p>I specialize in creating dynamic and user-friendly websites using modern web technologies. Whether it's a simple portfolio or a complex web application,I ensure efficient functionality
+
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-mobile"></i></div>
+                        <div class="card-title">App Development</div>
+                        <p> design and develop mobile applications tailored to meet your specific needs. From concept to deployment, I deliver smooth, scalable, and high-performance apps for both Android and iOS</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                        <div class="card-title">Web Design</div>
+                        <p>I craft visually appealing and responsive designs that enhance user experience. My focus is on aesthetics and functionality to ensure your website stands out and delivers value to users</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-laptop"></i></div>
+                        <div class="card-title">Responsive Design</div>
+                        <p>I build websites that look great on all devices, from desktops to smartphones. My designs adapt seamlessly to any screen size, ensuring an optimal .</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-line-chart"></i></div>
+                        <div class="card-title">Advertising</div>
+                        <p> create effective digital marketing campaigns that boost visibility and engagement. By utilizing targeted advertising strategies, I help businesses </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="icon"><i class="fa fa-wordpress"></i></div>
+                        <div class="card-title">Wordpress</div>
+                        <p>    I offer professional WordPress development services to build or customize websites. Whether you need a blog, an e-commerce site.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section start here -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h3 class="title">Portfolio</h3>
+            <div class="line"></div>
+            <div class="portfolio-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Project 1</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Project 2</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Project 3</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Project 4</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Project 5</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Project 6</h3>
+                            <p><span class="category">Web Design</span> / 20 Apr 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section start here -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h3 class="title">Blog</h3>
+            <div class="line"></div>
+            <div class="blog-content">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Travel Blog</h3>
+                            <div class="category">Travel</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quos tenetur magni cumque corporis mollitia!</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="IMG-20240722-WA0014.jpg" alt="">
+                                <p>Morgan Freeman</p>
+                            </div>
+                            <div class="date">
+                                <p>15 Aug 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Web Design Blog</h3>
+                            <div class="category">Web Design</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quos tenetur magni cumque corporis mollitia!</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                                <p>Morgan Freeman</p>
+                            </div>
+                            <div class="date">
+                                <p>15 Aug 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="photo">
+                            <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                        </div>
+                        <div class="info">
+                            <h3>Web Design Blog</h3>
+                            <div class="category">Web Design</div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quos tenetur magni cumque corporis mollitia!</p>
+                        </div>
+                        <div class="author">
+                            <div class="name">
+                                <img src="IMG-20240722-WA0014.jpg" alt="">
+
+                                <p>Morgan Freeman</p>
+                            </div>
+                            <div class="date">
+                                <p>15 Aug 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start here -->
+    <section class="contact" id="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="message">
+                    <form>
+                        <h3 class="heading">Send Message us</h3>
+                        <div class="line"></div>
+                        <div class="field">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="field">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="field">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="gettouch">
+                    <h3 class="heading">Get in Touch</h3>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                    <div class="info"><i class="fa fa-map-marker"></i>329 WASHINGTON ST BOSTON, MA 02108</div>
+                    <div class="info"><i class="fa fa-phone"></i>1234567890</div>
+                    <div class="info"><i class="fa fa-envelope"></i>contact@example.com</div>
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>© Copyright DevFolio. All Rights Reserved</p>
+            <p>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</p>
+        </footer>
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>
